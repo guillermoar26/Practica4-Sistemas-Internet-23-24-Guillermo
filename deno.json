@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch src/main.ts",
+    "deploy": "deployctl deploy --token=ddp_hFv9Mr61tGXPqy7AcQnMYMt4c3OXlP2ADDjG --project=practica-4 --prod ./src/main.ts"
+  },
+  "imports": {
+    "mongoose": "npm:mongoose@7.6.3",
+    "express": "npm:express@4.18.2",
+    "load": "https://deno.land/std@0.204.0/dotenv/mod.ts"
+  }
+}
