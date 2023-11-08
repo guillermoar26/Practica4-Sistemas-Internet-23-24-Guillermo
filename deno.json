@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run -A --watch src/main.ts",
-    "deploy": "deployctl deploy --token=ddp_hFv9Mr61tGXPqy7AcQnMYMt4c3OXlP2ADDjG --project=practica-4 --prod ./src/main.ts"
+    "deploy": "deployctl deploy --token=ddp_bm9U2zNYzushnKmmtAI53do3Y7v3wr1ZCySP --project=practica-4 --prod ./src/main.ts"
   },
   "imports": {
     "mongoose": "npm:mongoose@7.6.3",
